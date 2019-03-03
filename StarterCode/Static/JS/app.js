@@ -1,8 +1,3 @@
-// Create function to retrieve new data every time a new sample is selected
-function optionChanged(newSample) {
-    getData(newSample, createCharts);
-}
-
 //Create function to build pie and bubble charts
 function createCharts(sample, OTU) {
     // Use map to filter through sample data to find OTU taxonomic name
